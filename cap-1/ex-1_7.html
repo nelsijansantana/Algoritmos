@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Total a ser pago</title>
+  </head>
+  <body>
+    <script>
+      const valorJantar = Number(prompt("Digite o valor do jantar"));
+      const taxaGarcom = valorJantar * 0.1;
+      const totalPagar = valorJantar + taxaGarcom;
+      alert(
+        `Taxa Garçom: R$${taxaGarcom.toFixed(
+          2
+        )}\nTotal a pagar: R$${totalPagar.toFixed(2)}`
+      );
+    </script>
+  </body>
+</html>
