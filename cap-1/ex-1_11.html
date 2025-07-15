@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preço Loja</title>
+  </head>
+  <body>
+    <script>
+      const produto = Number(prompt("Digite o valor do produto"));
+      const descontoAVista = 0.1;
+      const parcelamento = 3;
+      alert(
+        `Preço: ${produto}\nÀ vista: ${produto * descontoAVista}\nOu 3x: ${
+          (produto / parcelamento).toFixed(2)
+        }`
+      );
+    </script>
+  </body>
+</html>
